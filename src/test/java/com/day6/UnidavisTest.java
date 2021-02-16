@@ -47,6 +47,7 @@ public class UnidavisTest {
 	    System.out.println("Sample test");
 	  LandingPage landingpage= new LandingPage(driver,wait);
 	  loginPage= landingpage.goToLoginPage(); //new LoginPage(driver,wait);
+	  //performance test
 	  //My test
     }
 	
