@@ -48,7 +48,7 @@ public class UnidavisTest {
 	  LandingPage landingpage= new LandingPage(driver,wait);
 	  loginPage= landingpage.goToLoginPage(); //new LoginPage(driver,wait);
 	  //performance test
-      
+	  //My test
     }
 	
     @Test
