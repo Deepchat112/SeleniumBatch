@@ -44,6 +44,7 @@ public class UnidavisTest {
 	    USER_PASSWORD=prop.getProperty("USER_PASSWORD");
 	    System.out.println(USER_PASSWORD);
 	    driver.get(URL);
+	    System.out.println("Sample test");
 	  LandingPage landingpage= new LandingPage(driver,wait);
 	  loginPage= landingpage.goToLoginPage(); //new LoginPage(driver,wait);
       
